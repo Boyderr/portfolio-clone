@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="all" />
+        <meta name="description" content="Emily Boyd's Web Design and Development Portfolio" />
+        <meta name="author" content="Emily Boyd" />
+        <meta name="geo.region" content="CA-BC" />
+        <meta name="geo.placename" content="Vancouver" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Emily Boyd's Web Design and Development Portfolio" />
+        <meta property="og:description" content="I am a web designer and developer with a passion for creating beautiful, functional designs and responsive websites. Check out my portfolio and get in touch!"/>
+        <meta property="og:url" content="https://emily-boyd.com/"/>
+        <meta property="og:image" content="images/emily-boyd-logo.svg"/>
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="630"/>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description" content="I am a web designer and developer with a passion for creating beautiful, functional designs and responsive websites. Check out my portfolio and get in touch!"/>
+        <meta name="twitter:image" content="images/emily-boyd-logo.svg" />
+        <meta name="twitter:image:alt" content="Emily Boyd Web Design and Development" />
+        <link rel="icon" type="image/svg" sizes="16x16" href="images/favicon-16x16.svg"/>
+        <link rel="icon" type="image/svg" sizes="32x32" href="images/favicon-32x32.svg"/>
+        <link rel="icon" type="image/svg" sizes="48x48" href="images/favicon-48x48.svg"/>
+        <link rel="icon" type="image/svg" sizes="64x64" href="images/favicon-64x64.svg"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/main.css?v=1" />
+        <link rel="stylesheet" href="styles/tablet.css">
+        <link rel="stylesheet" href="styles/desktop.css">
+        <title>About Emily</title>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="site-header__wrapper">
+                <div class="site-header__menu-btn--open">
+                    <a href=""><img class="js-menu-open" src="images/menu-button-open.svg" alt="Open Menu" /></a>
+                </div>
+                <div class="menu-opened">
+                    <div class="menu-opened__logo">
+                        <a href="index.html"><img class="menu-opened__logo-img js-move-right" src="images/final-colour-logo-notext.svg" alt="Emily Boyd logo" /></a>
+                    </div>
+                    <div class="site-header__logo-type-container">
+                        <img class="site-header__logo-type" src="images/logo-type-yellow.svg" alt="">
+                    </div>
+                    <nav class="site-header__menu" data-open="0">
+                        <ul class="menu-items js-menu-items">
+                            <li class="menu-item menu-item1"><a class="underline-transition__home" href="index.html">Home</a></li>
+                            <li class="menu-item menu-item2"><a class="underline-transition__about active" href="about.html">About</a></li>
+                            <li class="menu-item menu-item3"><a class="underline-transition__uxui" href="uxui.html">UX/UI</a></li>
+                            <li class="menu-item menu-item4"><a class="underline-transition__dev" href="#">Dev</a></li>
+                        </ul>
+                    </nav>
+                    <div class="site-header__menu-btn--close">
+                        <a href="#" class="js-close"><img class="js-menu-close" src="images/menu-button-close.svg" alt="Close Menu"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="about">
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/emily-boyd-6b3a29255/" target="_blank">
+                    <img class="linkedin__img" src="images/linkedin.svg" alt="LinkedIn Profile Link" />
+                </a>
+            </div>
+            <div class="email">
+                <a href="mailto:emilyllboyd@gmail.com">
+                    <img class="email__img" src="images/email-icon.svg" alt="Email Me" />
+                </a>
+            </div>
+            <div class="desktop-container">
+                <div class="profile">
+                    <picture class="profile__img-container">
+                        <source media="(min-width: 1400px)" srcset="images/emily-img-lrg.jpg">
+                        <source media="(min-width: 834px)" srcset="images/emily-img-med.jpg">
+                        <img class="profile__img" src="images/emily-img-sml.jpg" alt="Emily's Profile image" />
+                    </picture>
+                </div>
+                <div class="site-wrapper">
+                    <section class="about__info">
+                        <h1>About</h1>
+                        <p>Hi! My name is Emily, and I have been passionate about art and creativity ever since I was a child. I have always loved exploring new mediums, techniques and styles, and expressing myself through my artwork. This love for art eventually led me to discover my passion for technology and digital media. I have always been fascinated by how technology has transformed the way we create, share and interact with art and design.</p>
+                        <p>I realized that my love for art and my passion for technology could be combined into a fulfilling career in media design. I have a strong desire to make the web a more beautiful and interactive place, and I believe that my skills in both traditional art and digital media can help me achieve this goal.</p>
+                        <p>I am currently a student of BCIT's New Media Design and Web Development diploma program, where I am learning the latest techniques and technologies in web and graphic design, user experience and user interface design, and web development. I am eager to apply what I have learned to real-world projects and contribute to the ever-evolving web design industry.</p>
+                        <p>I am actively seeking internships in the fields of UX/UI Design or Front-end Web Development, and I am eager to work with organizations that share my passion for creativity, technology and design. If you have an opportunity for me, I would love to hear from you!</p>
+                    </section>
+                </div>
+            </div>
+            <footer class="site-footer">
+                <div class="return-top">
+                    <a href="#top"><img class="return-top" src="images/return-top.svg" alt="Return To Top" /></a>
+                </div>
+                <div class="site-footer__content">
+                    <h4>handcrafted by</h4>
+                    <div class="site-footer__copyright">
+                        <p class="copyright">&copy;</p>
+                        <img src="images/logo-type-dark.svg" alt="" />
+                    </div>
+                </div>
+            </footer>
+        </main>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>

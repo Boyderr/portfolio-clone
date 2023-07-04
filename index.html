@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="all" />
+        <meta name="description" content="Emily Boyd's Web Design and Development Portfolio" />
+        <meta name="author" content="Emily Boyd" />
+        <meta name="geo.region" content="CA-BC" />
+        <meta name="geo.placename" content="Vancouver" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Emily Boyd's Web Design and Development Portfolio" />
+        <meta property="og:description" content="I am a web designer and developer with a passion for creating beautiful, functional designs and responsive websites. Check out my portfolio and get in touch!"/>
+        <meta property="og:url" content="https://emily-boyd.com/"/>
+        <meta property="og:image" content="images/emily-boyd-logo.svg"/>
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="630"/>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description" content="I am a web designer and developer with a passion for creating beautiful, functional designs and responsive websites. Check out my portfolio and get in touch!"/>
+        <meta name="twitter:image" content="images/emily-boyd-logo.svg" />
+        <meta name="twitter:image:alt" content="Emily Boyd Web Design and Development" />
+        <link rel="icon" type="image/svg" sizes="16x16" href="images/favicon-16x16.svg"/>
+        <link rel="icon" type="image/svg" sizes="32x32" href="images/favicon-32x32.svg"/>
+        <link rel="icon" type="image/svg" sizes="48x48" href="images/favicon-48x48.svg"/>
+        <link rel="icon" type="image/svg" sizes="64x64" href="images/favicon-64x64.svg"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/main.css?v=1" />
+        <link rel="stylesheet" href="styles/tablet.css">
+        <link rel="stylesheet" href="styles/desktop.css">
+        <title>Emily Boyd | Web Design & Development | Portfolio</title>
+    </head>
+    <body>
+        <div class="site-header__logo">
+            <a href=""><img class="site-header__logo-img js-move-right" src="images/final-colour-logo-notext.svg" alt="Emily Boyd logo" /></a>
+        </div>
+        <header class="site-header">
+            <div class="site-header__menu-btn--open">
+                <a href=""><img class="js-menu-open" src="images/menu-button-open.svg" alt="Open Menu" /></a>
+            </div>
+            <div class="site-header__wrapper">
+                <div class="menu-opened desktop-menu">
+                    <div class="menu-opened__logo">
+                        <img class="menu-opened__logo-img js-move-right" src="images/final-colour-logo-notext.svg" alt="Emily Boyd logo" />
+                    </div>
+                    <div class="site-header__logo-type-container">
+                        <img class="site-header__logo-type" src="images/logo-type-yellow.svg" alt="">
+                    </div>
+                    <nav class="site-header__menu">
+                        <ul class="menu-items js-menu-items">
+                            <li class="menu-item menu-item1"><a class="underline-transition__home active" href="index.html">Home</a></li>
+                            <li class="menu-item menu-item2"><a class="underline-transition__about" href="about.html">About</a></li>
+                            <li class="menu-item menu-item3"><a class="underline-transition__uxui" href="uxui.html">UX/UI</a></li>
+                            <li class="menu-item menu-item4"><a class="underline-transition__dev" href="#">Dev</a></li>
+                        </ul>
+                    </nav>
+                    <div class="site-header__menu-btn--close">
+                        <a href="#" class="js-close"><img class="js-menu-close" src="images/menu-button-close.svg" alt="Close Menu"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="site-wrapper intro">
+                <h2 class="intro__text">
+                    <span class="pink hi xlrg-text">Hi, </span>
+                    <br />
+                    <span class="logo-yellow emily lrg-text">I'm Emily.</span>
+                </h2>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/emily-boyd-6b3a29255/" target="_blank">
+                    <img class="linkedin__img" src="images/linkedin.svg" alt="LinkedIn Profile Link" />
+                </a>
+            </div>
+            <div class="email">
+                <a href="mailto:emilyllboyd@gmail.com">
+                    <img class="email__img" src="images/email-icon.svg" alt="Email Me" />
+                </a>
+            </div>
+            <div class="site-wrapper">
+                <section class="overview">
+                    <h1 class="logo-yellow">I design and build <span class="pink">digital</span> products.</h1>
+                    <p class="overview__p">I&apos;m passionate about solving complex problems with efficient, scalable, and clean solutions. It&apos;s my mission to delight the world with my designs both functionally and aesthetically.</p>
+                </section>
+                <section class="featured-project">
+                    <div class="featured-project__header">
+                        <h2 class="pink">Featured Project</h2>
+                        <a href="betterbaker.html"><h3 class="logo-yellow underline">BetterBaker App</h3></a>
+                        <p>A baking app prototype</p>
+                    </div>
+                    <a class="featured-project__image" href="betterbaker.html">
+                        <picture>
+                            <img src="images/uxui-betterbaker.jpg" alt="BetterBaker App Mockup" />
+                        </picture>
+                    </a>
+                    <div class="featured-project__description">
+                        <p>This baking recipe app aims to add some fun, excitement, and motivation into the process of baking. The app was designed to encourage users to practice and share their baking skills while unlocking more advanced recipes along the way.</p>
+                    </div>
+                </section>
+                <div class="view-project">
+                    <a class="project__button" href="betterbaker.html">View Project</a>
+                </div>
+            </div>
+        </main>
+        <footer class="site-footer">
+            <div class="return-top">
+                <a href="#top"><img class="return-top" src="images/return-top.svg" alt="Return To Top" /></a>
+            </div>
+            <div class="site-footer__content">
+                <h4>handcrafted by</h4>
+                <div class="site-footer__copyright">
+                    <p class="copyright">&copy;</p>
+                    <img src="images/logo-type-dark.svg" alt="" />
+                </div>
+            </div>
+        </footer>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>

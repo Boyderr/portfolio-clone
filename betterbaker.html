@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="all" />
+        <meta name="description" content="Emily Boyd's Web Design and Development Portfolio" />
+        <meta name="author" content="Emily Boyd" />
+        <meta name="geo.region" content="CA-BC" />
+        <meta name="geo.placename" content="Vancouver" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Emily Boyd's Web Design and Development Portfolio" />
+        <meta property="og:description" content="I am a web designer and developer with a passion for creating beautiful, functional designs and responsive websites. Check out my portfolio and get in touch!"/>
+        <meta property="og:url" content="https://emily-boyd.com/"/>
+        <meta property="og:image" content="images/emily-boyd-logo.svg"/>
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="630"/>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description" content="I am a web designer and developer with a passion for creating beautiful, functional designs and responsive websites. Check out my portfolio and get in touch!"/>
+        <meta name="twitter:image" content="images/emily-boyd-logo.svg" />
+        <meta name="twitter:image:alt" content="Emily Boyd Web Design and Development" />
+        <link rel="icon" type="image/svg" sizes="16x16" href="images/favicon-16x16.svg"/>
+        <link rel="icon" type="image/svg" sizes="32x32" href="images/favicon-32x32.svg"/>
+        <link rel="icon" type="image/svg" sizes="48x48" href="images/favicon-48x48.svg"/>
+        <link rel="icon" type="image/svg" sizes="64x64" href="images/favicon-64x64.svg"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/main.css?v=1" />
+        <link rel="stylesheet" href="styles/tablet.css">
+        <link rel="stylesheet" href="styles/desktop.css">
+        <title>BetterBaker App</title>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="site-header__wrapper">
+                <div class="site-header__menu-btn--open">
+                    <a href=""><img class="js-menu-open" src="images/menu-button-open.svg" alt="Open Menu" /></a>
+                </div>
+                <div class="menu-opened">
+                    <div class="menu-opened__logo">
+                        <a href="index.html"><img class="menu-opened__logo-img js-move-right" src="images/final-colour-logo-notext.svg" alt="Emily Boyd logo" /></a>
+                    </div>
+                    <div class="site-header__logo-type-container">
+                        <img class="site-header__logo-type" src="images/logo-type-yellow.svg" alt="">
+                    </div>
+                    <nav class="site-header__menu" data-open="0">
+                        <ul class="menu-items js-menu-items">
+                            <li class="menu-item menu-item1"><a class="underline-transition__home" href="index.html">Home</a></li>
+                            <li class="menu-item menu-item2"><a class="underline-transition__about" href="about.html">About</a></li>
+                            <li class="menu-item menu-item3"><a class="underline-transition__uxui" href="uxui.html">UX/UI</a></li>
+                            <li class="menu-item menu-item4"><a class="underline-transition__dev" href="#">Dev</a></li>
+                        </ul>
+                    </nav>
+                    <div class="site-header__menu-btn--close">
+                        <a href="#" class="js-close"><img class="js-menu-close" src="images/menu-button-close.svg" alt="Close Menu"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <main class="betterbaker main">
+        <div class="discipline-linkedin">
+            <a href="https://www.linkedin.com/in/emily-boyd-6b3a29255/" target="_blank">
+                <img class="discipline-linkedin__img" src="images/linkedin.svg" alt="LinkedIn Profile Link" />
+            </a>
+        </div>
+        <div class="discipline-email">
+            <a href="mailto:emilyllboyd@gmail.com">
+                <img class="discipline-email__img" src="images/email-icon.svg" alt="Email Me" />
+            </a>
+        </div>
+        <div class="site-wrapper">
+            <section class="project__intro">
+                <div class="project__intro-text">
+                    <h1>BetterBaker</h1>
+                    <p>A fictional baking recipe app designed to motivate users to practice and improve their baking skills, share their creations, and track their progress. Users unlock more advanced recipes as they bake and engage with the app.</p>
+                </div>
+                <div class="desktop-pos2">
+                    <div class="project__info">
+                        <div>
+                            <h3>Date</h3>
+                            <ul>
+                                <li>December</li> 
+                                <li>2022</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Role</h3>
+                            <ul>
+                                <li>UX Research</li>
+                                <li>Graphic Design</li>
+                                <li>UI design</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Software</h3>
+                            <ul>
+                                <li>Illustrator</li>
+                                <li>Figma</li>
+                                <li>Maze</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <picture>
+                        <img class="bb-project__img" src="images/betterbaker-mockup2-sml-highres.jpg" alt="Better Baker app mockup">
+                    </picture>
+                </div>
+            </section>
+            <section class="phase phase1">
+                <h2>Let's Get Baking!</h2>
+                <h3>1. Empathize &amp; Define</h3>
+                <p class="phase__intro-p">The target audience for this app was primarily females between the ages of 25-40. These women would be hobbyist bakers with busy schedules who were looking for a unique experience that would motivate them to bake more and have fun in the process. Before jumping into the design process, I created a user persona and user scenario to gain a better understanding of my target user's goals, needs, and pain points.</p>
+                <div class="phase1__img-container">
+                    <picture>
+                        <img src="images/bb-userpersona-sml-highres.jpg" alt="User Persona">
+                    </picture>
+                    <picture>
+                        <img src="images/bb-userscenario-sml-highres.jpg" alt="User Scenario">
+                    </picture>
+                </div>
+            </section>
+            <section class="phase phase2">
+                <h3>2. Ideate</h3>
+                <p class="phase__intro-p">I created a flowchart for my app to visualize the user journey from start to finish. This helped me identify potential roadblocks and improve the overall user experience, resulting in a more efficient and intuitive app design.</p>
+                <picture class="userflow">
+                    <source media="(min-width: 1400px)" srcset="images/bb-userflow-desktop.jpg">
+                    <img src="images/bb-userflow-sml-highres.jpg" alt="User Flowchart">
+                </picture>
+            </section>
+            <section class="phase phase3">
+                <h3>3. Prototype</h3>
+                <p class="phase__intro-p">Following my user flowchart, I created the screens necessary for the user journey using Figma. The pastel design theme and cursive font I chose for this project communicated a sense of sweetness and playfulness, and represented the icing on a cake. Keeping my target user in mind, this theme conveyed feelings of relaxation, approachability, and fun.</p>
+                <div class="project__image-grid1">
+                    <picture>
+                        <img src="images/bb-prototype-login-sml-highres.png" alt="Prototype login screen">
+                    </picture>
+                    <picture>
+                        <img src="images/bb-prototype-home-sml-highres.png" alt=" Prototype home screen">
+                    </picture>
+                    <picture>
+                        <img src="images/bb-prototype-sugarcookies-sml-highres.png" alt="Prototype sugar cookie recipe screen">
+                    </picture>
+                    <picture>
+                        <img src="images/bb-prototype-shopping-sml-highres.png" alt="Prototype shopping list screen">
+                    </picture>
+                    <picture>
+                        <img src="images/bb-prototype-recipedone-sml-highres.png" alt="Prototype completed recipe screen">
+                    </picture>
+                    <picture>
+                        <img src="images/bb-prototype-account-sml-highres.png" alt="Prototype account screen">
+                    </picture>
+                </div>
+            </section>
+            <section class="phase phase4">
+                <h3>4. User Testing</h3>
+                <p class="phase__intro-p">Using Maze, I created a user test to gain insight into the usability of my design. I wanted to evaluate if users would be able to perform key tasks, and if there were any areas that might be confusing or need to be more clearly defined. After analyzing the results, I gained the necessary feedback to improve my design.</p>
+                <div class="desktop-flex">
+                    <div class="desktop-flex__item">
+                        <div>
+                            <picture>
+                                <img src="images/bb-usertest1-sml-highres.png" alt="User Testing Results">
+                            </picture>
+                        </div>
+                        <div>
+                            <div class="project__image-grid2">
+                                <div>
+                                    <picture>
+                                        <img src="images/bb-usertest1-mockup-sml-highres.png" alt="User Test Mockup">
+                                    </picture>
+                                </div>
+                                <div>
+                                    <p>Users were unclear on the functionality of the radio buttons as they looked too much like bullet points and there was a lack of contrast separating them from the background.</p>
+                                    <p>There was also a lack of contrast between the pastel green elements, the white text, and the light background.</p>
+                                </div>
+                            </div>
+                            <div class="separator-underline"></div>
+                        </div>
+                    </div>
+                    <div class="desktop-flex__item">
+                        <div>
+                            <picture>
+                                <img src="images/bb-usertest2-sml-highres.png" alt="User Testing results">
+                            </picture>
+                        </div>
+                        <div>
+                            <div class="project__image-grid2">
+                                <div>
+                                    <p>Users were similarly unclear of the functionality of these radio buttons because of their bullet-like appearance and lack of contrast.</p>
+                                    <p>Users also had trouble navigating back to the recipe page, as the back button needed to be more prominent and labelled. </p>
+                                </div>
+                                <div class="float-right">
+                                    <picture>
+                                        <img src="images/bb-usertest2-mockup-sml-highres.png" alt="User Test Mockup">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="separator-underline"></div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="desktop-flex">
+                    <div class="desktop-flex__item">
+                        <div>
+                            <picture>
+                                <img src="images/bb-usertest3-sml-highres.png" alt="User Testing results">
+                            </picture>
+                        </div>
+                        <div>
+                            <div class="project__image-grid2">
+                                <div>
+                                    <picture>
+                                        <img src="images/bb-usertest3-mockup-sml-highres.png" alt="User Test Mockup">
+                                    </picture>
+                                </div>
+                                <div>
+                                    <p>Users were unclear how they should save the recipe and upload a photo. Adding a simple, educational onboarding message was needed to clarify this key functionality.</p>
+                                </div>
+                            </div>
+                            <div class="separator-underline"></div>
+                        </div>
+                    </div>
+                    <div class="desktop-flex__item">
+                        <div>
+                            <picture>
+                                <img src="images/bb-usertest4-sml-highres.png" alt="User Testing results">
+                            </picture>
+                        </div>
+                        <div>
+                            <div class="project__image-grid2">
+                                <div>
+                                    <p>Going against standard conventions, I used a chef&apos;s hat as the icon for the Account tab. This user test showed that a more standard account icon would be more effective for the design. </p>
+                                </div>
+                                <div class="float-right">
+                                    <picture>
+                                        <img src="images/bb-usertest4-mockup-sml-highres.png" alt="User Test Mockup">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="phase phase5">
+                <h3>5. Revise Prototype</h3>
+                <p class="phase__intro-p">Based on the issues uncovered by my user testing, I modified my prototype to improve the overall user experience. I added an onboarding message to educate users on the app&apos;s purpose and functionality, increased contrast between elements to improve readability, and swapped out the chef&apos;s hat icon for a standard user icon. I also included some animated “Baker&apos;s Tips” to clarify functions that were not immediately clear to the user.</p>
+                <div class="grid-container">
+                    <div class="project__image-grid1">
+                        <picture>
+                            <img src="images/bb-prototype-login-revised-sml-highres.png" alt="Prototype login screen">
+                        </picture>
+                        <picture>
+                            <img src="images/bb-prototype-onboarding-revised-sml-highres.png" alt=" Prototype Onboarding screen">
+                        </picture>
+                        <picture>
+                            <img src="images/bb-prototype-home-revised-sml-highres.png" alt="Prototype sugar cookie recipe screen">
+                        </picture>
+                        <picture>
+                            <img src="images/bb-prototype-sugarcookies-revised-sml-highres.png" alt="Prototype shopping list screen">
+                        </picture>
+                        <picture>
+                            <img src="images/bb-prototype-recipedone-revised-sml-highres.png" alt="Prototype completed recipe screen">
+                        </picture>
+                        <picture>
+                            <img src="images/bb-prototype-account-revised-sml-highres.png" alt="Prototype account screen">
+                        </picture>
+                    </div>
+                    <div class="view-prototype">
+                        <a class="project__button" href="https://www.figma.com/proto/E6NY4ll9XdQOhk3vj5iEZQ/Project-2---Better-Baker-App---Version-3?page-id=0%3A1&node-id=2-3&viewport=162%2C326%2C0.18&scaling=scale-down&starting-point-node-id=2%3A3" target="_blank">View Figma Prototype</a>
+                    </div>
+                </div>
+            </section>
+            <section class="phase phase6">
+                <h3>6. Reflection</h3>
+                <p class="phase__intro-p">I had a lot of fun developing the UX/UI for this application. As this was a school project, we were limited to one round of user testing which I thought uncovered tons of useful analytics. However, I think with further testing and iterations, I could implement even more changes to improve the overall user experience and gain further insight into the thoughts and feelings of my end users.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="return-top">
+            <a href="#top"><img class="return-top" src="images/return-top.svg" alt="Return To Top" /></a>
+        </div>
+        <div class="site-footer__content">
+            <h4>handcrafted by</h4>
+            <div class="site-footer__copyright">
+                <p class="copyright">&copy;</p>
+                <img src="images/logo-type-dark.svg" alt="" />
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    </body>
+</html>
