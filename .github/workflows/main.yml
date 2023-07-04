@@ -17,3 +17,4 @@ jobs:
         server: ftp.emily-boyd.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
+        server-dir: /portfolio-clone.emily-boyd.com/
